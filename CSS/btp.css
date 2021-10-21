@@ -1,0 +1,556 @@
+*{  margin:0;
+    padding:0;
+}
+
+body{   background-color: #A9BCD0;
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+main{  min-height:100%;
+     position:relative;
+     padding-bottom:100px;
+}
+
+
+header{ 
+  
+  background-color: #373F51;
+
+}
+
+.logo{
+
+  padding-left: 4%;
+
+}
+
+.box_logo{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.box_lien{ 
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35%;
+  width: 40%;
+  align-items: center;
+}
+
+
+.logo{  display: flex;
+    align-items: flex-start;
+}
+
+footer{ 
+    background-color: #373F51;
+    bottom:0;
+    width:100%;
+    height:100px;
+    position:absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+                    /*Page accueil */
+
+
+/* début du slider */
+
+.title1{
+    display : flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+div.title-box{
+       background-color: #58a4b0;
+       position: absolute;
+       z-index: 999;
+       padding: 30px;
+       border: 3px solid white;
+       margin-left: 35px;
+       
+}
+
+.slider {
+overflow: hidden;
+font-size: 10px;
+margin-right: 40px;
+margin-left: 40px;
+height: 20%;
+}
+
+.slides {
+display: flex;
+align-items: center;
+flex-direction: row;
+height: 350px;
+animation: glisse 15s infinite ease;
+
+}
+
+.slides {
+opacity: 1;
+}
+
+.slide{  font-size: 10px;
+    height: 75%;
+}
+
+
+@keyframes glisse{
+
+0% {
+   transform: translateX(0);
+}
+
+10% { transform: translateX(0);
+
+}
+
+33% {
+   transform: translateX(-500px);
+}
+
+66% {
+   transform: translateX(-500px);
+}
+
+100% {
+   transform: translateX(0);
+}
+
+}
+
+           /* fin du slider */
+
+
+
+
+           /* corp */
+
+
+.listes{  display: flex;
+   justify-content: space-between;
+   text-align: center;
+    
+}
+
+.texts{
+height: 350px;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+margin: 40px;
+}
+
+.text{  background-color: #58a4b0;
+height: 160px;
+display: flex;
+align-items: center;
+font-family: 'Oswald', sans-serif;
+border: 3px solid white;
+margin-bottom: 60px;
+
+}
+
+.cat{   font-size: 30px;
+
+}
+
+.menu{ color: white;
+
+
+}
+
+
+                            /*  Page équipe*/
+
+
+                /* arbre */
+   
+
+
+                .arbre { 
+                    background-image: url(../images/back.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin: 60px;
+                    display: inline-block;
+                    border: 6px solid white;
+                }
+                
+                .director{  display: flex;
+                 align-items: center;
+                 flex-direction: column;
+                 text-align: center;
+                 
+                }
+                
+                .i-director{ max-height: 30%;
+                
+                }
+                
+                .deuxpremiers{ display: flex;
+                    justify-content: center;
+                    text-align: center;
+                
+                }
+                
+                .deuxderniers{ display: flex;
+                    justify-content: center;
+                    text-align: center;
+                
+                }
+                
+                .secretary{ display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                
+                }
+                
+                
+                .image-p{ font-family: 'EB Garamond', serif;
+                    
+                
+                }
+                
+                .corps{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                .presentation{ text-align: center;
+                
+                }
+                .équipe{ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                
+                }
+                
+                .équipe1{ text-align: center;
+                    font-size: 40px;
+                
+                
+                }
+                
+                .p1{ font-size: 30px;
+                
+                }
+                
+                .intro{ background-color:#58a4b0;
+                    font-size: larger;
+                     border: 2px solid white;
+                     width: 50%;
+                     margin: 30px;
+                
+                }
+                
+                .pdirect{ text-align: center;
+                    display: flex;
+                
+                }
+                .image-p{  width: 40%;
+                }
+                
+                .couvreur{ display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+                
+                
+                .carreleur{ display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .peintre{ display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                }
+                
+                .electricien{ display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                }
+                
+                /* Page réalisation */
+
+                .box{
+
+                    background-color: #81B0C0;
+                    border: solid white 3px;
+                  }
+                  
+                .titre_real{
+                  
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 60px;
+                    text-align: center;
+                    margin: 2%;
+                  }
+                  
+                .txt_rea{
+                  
+                    text-align: center;
+                    font-size: 18px;
+                    
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    margin: 4%;
+                  }
+                  
+                  .box2, .box3{
+                  
+                    display: flex;
+                    justify-content: space-around;
+                  }
+                  
+                  .txt_rea2, .txt_rea3{
+                  
+                    font-family: 'Courier New', Courier, monospace;
+                    
+                    font-size: 17px;
+                  }
+
+                  .box_real2, .box_real3{
+
+                    width: 45%;
+                  
+                  }
+                  
+                  li.li1{
+                  
+                    font-size: 18px;
+                  }
+                  
+                  .main_box{
+                  
+                    background-color: #D8DBE2;
+                  }
+                  
+                  .box_img_real{
+                  
+                    display: flex;
+                    justify-content: space-around;
+                    padding-top: 3%;
+                  }
+                  
+                  .box4{
+                  
+                    text-align: center;
+                    
+                  }
+                  
+                  .titre_real4{
+                    
+                    font-family: Georgia, 'Times New Roman', Times, serif
+                  }
+                  
+                  .txt4{
+                  
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  }
+
+
+
+
+                
+                    /* Page présentation */
+
+.titre{
+
+    background-color: #58A4B0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid white 2px;
+    margin-right: -2%;
+    padding-left: 4%;
+}
+                      
+                      
+.contain{
+                      
+    padding-top: 2%;
+                        
+}
+                      
+                      
+                      
+.container{
+                      
+    display: flex;
+    flex-direction: column;
+    background-color: #81B0C0;
+     border-radius: 1em;
+    border: solid white 3px;
+}
+                      
+.txt1{
+                      
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+                      
+.txt2{
+                      
+    display: flex;
+    justify-content: center;
+    font-family:'Quicksand', sans-serif;           
+    width: 70%;
+}
+                      
+.liste1{
+                      
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+                      
+.liste{
+                      
+font-family: 'Roboto Condensed', sans-serif;
+                      
+}
+                      
+.txt3{
+                      
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family:'Quicksand', sans-serif;
+     width: 50%;
+}
+                      
+.txt4{
+                      
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+                      
+.back2, .back3{
+                      
+    background-color: #D8DBE2;
+    padding-top: 2%;
+    padding-left: 5%;
+    height: 30%;
+    margin-right: -2%;
+    display: flex;
+    justify-content: space-around;
+                        
+}
+                      
+.img_pres{
+                      
+    padding-top: 4%;
+    opacity: 0.8;
+                      
+}
+                      
+                      
+.cont2{
+                      
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+                      
+                      
+                      
+.cont3{
+                      
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+                      /* Page Contact */
+
+form div {
+  
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        padding-left: 5%;
+        min-height: 30px;
+        margin-top: 10px;
+                        
+                        
+}
+                      
+.main_boxc{
+                      
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto Condensed', sans-serif;
+    padding-top: 4%;
+                      
+}
+                      
+.grand_titre{
+                      
+    background-color: #58A4B0;
+    font-family: 'Hind Siliguri', sans-serif;
+    border: solid white 2px;
+     padding-left: 6%;
+}
+                      
+.t2{
+                      
+    background: #D8DBE2;
+    height: 200px;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+                      
+.fond{
+                      
+    background: #D8DBE2;
+    width: 55%; height: 35%;
+                        
+}
+
+.t1{
+                      
+    font-family: 'Roboto Condensed', sans-serif;
+}
+                      
+.t3{
+                      
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    height: 100px;
+                      
+}
+                      
+.fond2{
+                      
+    background-color: #508B99 ;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    box-shadow: 10px 5px 5px black;
+    width: 70%;
+}
+                      
